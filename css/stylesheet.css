@@ -1,0 +1,40 @@
+h1.mainTitle {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+h3.subTitle {
+	text-align: center;
+	margin-top: 0px;
+}
+
+h4 {
+	display: inline-block;
+	text-align: right;
+	margin-right: auto;
+}
+
+#mapSection {
+	height: 500px;
+	width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.mainImage {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img.sideImage {
+	display:inline-block;
+	margin-left: auto;
+}
+
+p {
+	display: inline-block;
+	vertical-align: top;
+}

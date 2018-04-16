@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Monk's Cafe</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  
+</head>
+<body>
+<h1 class="mainTitle">Monk's Cafe</h1>
+<h3 class="subTitle">"The Coffee Shop"</h3>
+
+<img class="mainImage" src="images/toms-restaurant.jpg">
+
+<h1 class="mainTitle">Reservations</h1>
+
+<!-- reservation stuff here -->
+<div id="reservationBox">
+<!--make a reservation form -->
+<form>
+    <p>Need a reservation? Request one here!<p> <input type="text" id="formName" placeholder="Name">
+    <input type="text" id="formDay" placeholder="Day">
+    <button>Confirm</button>
+</form>
+
+<!-- existing reservations-->
+<div id="existingReservations">
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Day</th>
+	</thead>
+	<tbody>
+		<td id="reservationName">Bob</td>
+		<td id="reservationDate">Friday</td>
+	</tbody>
+</table>
+</div>
+</div>
+
+<h1 class="mainTitle">Come Dine With Us</h1>
+<div id="mapSection"></div>
+
+<h1 class="mainTitle">Customer Reviews</h1>
+
+<div id="reviewBox">
+	<img class="sideImage" src="images/jerry.jpg">
+<p>“Big lettuce, big carrots, tomatoes like volleyballs.”
+— Jerry Seinfeld, on The BIG Salad</p>
+</div>
+ <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgVRsQm8OVamPzb05SFBU1LDrIEsQk3Jc"
+  type="text/javascript"></script>	
+  <script src="js/main.js"></script>
+</body>
+</html>
